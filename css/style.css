@@ -24,7 +24,7 @@ html {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
@@ -105,6 +105,30 @@ nav a {
 
 @media all and (min-width: 900px) {
     .jumbo_container {
+        width: 96%;
+        margin: 0 auto;
+    }
+}
+
+/* IT TAKES TWO */
+
+.it_takes_two {
+    height: 100vh;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.it_takes_two_container {
+    height: 100%;
+}
+
+.game_logo>img {
+    width: 10rem;
+}
+
+@media all and (min-width: 900px) {
+    .it_takes_two_container {
         width: 96%;
         margin: 0 auto;
     }
