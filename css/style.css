@@ -1,5 +1,12 @@
 /* Root Variables */
 
+:root {
+    --red: #CD3D0F;
+    --blu: #2D64E6;
+    --bg_gray: #BEBCBB;
+    --bg_blu: #161C3B;
+}
+
 /* COMMON */
 
 html {
@@ -19,6 +26,7 @@ p {
 }
 
 .btn {
+    color: white;
     font-size: 1.1rem;
     padding: .4rem 1rem;
     border: 2px solid transparent;
@@ -35,12 +43,24 @@ p {
     top: 0;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(104, 104, 104);
+}
+
 .dropdown-toggle::after {
     display: none;
 }
 
 .dropdown svg {
     width: .6rem;
+}
+
+nav .btn:hover {
+    opacity: .8;
 }
 
 .btn_extend {
@@ -77,16 +97,30 @@ p {
     width: 13rem;
 }
 
+.jumbotron .btn:hover {
+    outline: 2px solid rgb(220, 76, 44);
+}
+
 /* Jumbotron Games */
 
 .jumbo_game img {
+    opacity: .7;
     width: 100%;
     border-radius: 20px;
     border: 4px solid transparent;
 }
 
+.jumbo_game img:hover {
+    opacity: 1;
+}
+
 .jumbo_game .ms_active {
     outline: 2px solid rgb(1, 90, 199);
+}
+
+.jumbo_game:hover {
+    position: relative;
+    bottom: .6rem;
 }
 
 /* It Takes Two */
@@ -100,4 +134,8 @@ p {
 
 .itTakesTwo .row img {
     width: 13rem;
+}
+
+.itTakesTwo .btn:hover {
+    outline: 2px solid rgb(220, 76, 44);
 }
