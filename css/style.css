@@ -77,6 +77,18 @@ p {
     width: 13rem;
 }
 
+/* Jumbotron Games */
+
+.jumbo_game img {
+    width: 100%;
+    border-radius: 20px;
+    border: 4px solid transparent;
+}
+
+.jumbo_game .ms_active {
+    outline: 2px solid rgb(1, 90, 199);
+}
+
 /* It Takes Two */
 
 .itTakesTwo {
