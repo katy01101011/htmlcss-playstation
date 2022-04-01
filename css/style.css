@@ -10,6 +10,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    font-size: 2.7rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.btn {
+    font-size: 1.1rem;
+    padding: .4rem 1rem;
+}
+
 /* HEADER */
 
 .nav_top>svg {
@@ -24,14 +37,6 @@ body {
     width: .6rem;
 }
 
-h2 {
-    font-size: 2.6rem;
-}
-
-p {
-    font-size: 1.1rem;
-}
-
 /* MAIN */
 
 /* Jumbotron */
@@ -40,20 +45,33 @@ p {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-position: top;
     margin-top: 88px;
     padding-top: 17rem;
 }
 
 .jumbotron .row img {
-    width: 19rem;
-}
-
-.btn {
-    font-size: 1.1rem;
-    padding: .5rem 1rem;
+    width: 13rem;
 }
 
 .jumbotron .btn {
+    border: 2px solid red;
+}
+
+/* It Takes Two */
+
+.itTakesTwo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.itTakesTwo .row img {
+    width: 13rem;
+}
+
+.itTakesTwo .btn {
     border: 2px solid red;
 }
