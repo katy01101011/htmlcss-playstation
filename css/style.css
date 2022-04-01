@@ -29,6 +29,11 @@ p {
     height: 1rem;
 }
 
+.nav_bottom {
+    position: sticky;
+    top: 0;
+}
+
 .dropdown-toggle::after {
     display: none;
 }
@@ -47,7 +52,7 @@ p {
     background-position: center;
     background-size: cover;
     background-position: top;
-    margin-top: 88px;
+    margin-top: 0px;
     padding-top: 17rem;
 }
 
