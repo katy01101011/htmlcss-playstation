@@ -39,6 +39,10 @@ p {
     background-color: black;
 }
 
+.bg_blue {
+    background-color: var(--blu);
+}
+
 /* Buttons */
 
 .login_btn {
@@ -353,7 +357,35 @@ nav i {
 
 /* PS4 */
 
-.ps4 p {
-    font-size: 1.3rem;
+.ps4 .card {
+    text-align: start;
+    border: 0;
 }
 
+.ps4 a .buy_btn {
+    color: white;
+    background-color: var(--blu);
+}
+
+.ps4 a .buy_btn:hover {
+    outline: 2px solid var(--blu);
+    outline-offset: 3px;
+}
+
+.ps4 p {
+    font-size: 1.3rem;
+    color: var(--text_gray);
+
+}
+
+.ps4 .card-body {
+    height: 100%;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.ps4 .card-body a {
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+}
