@@ -460,3 +460,19 @@ nav i {
     }
 }
 
+/* Social */
+
+.social img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 .4rem .6rem rgba(0,0,0,.3)!important;
+
+}
+
+.social img:hover {
+    opacity: 1;
+    box-shadow: black;
+    transform: scale(1.02);
+    transition: .2s;
+    box-shadow: 0 .6rem 1.2rem rgba(0,0,0,.3)!important;
+}
