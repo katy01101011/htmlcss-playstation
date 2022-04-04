@@ -336,14 +336,24 @@ nav i {
     transition: .5s;
 }
 
-/* MQ New Releases */
-
-/* MD */
-@media all and (min-width: 576px) {
-
+.new_releases .buy_btn {
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
-@media all and (min-width: 992px) {
+.new_releases a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
 
+/* PS4 */
+
+.ps4 p {
+    font-size: 1.3rem;
 }
 
