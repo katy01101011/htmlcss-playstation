@@ -4,6 +4,7 @@
     --red: #CD3D0F;
     --blu: #2D64E6;
     --lightgray: #F5F5F5;
+    --text_gray: #717171;
     --bg_gray: #BEBCBB;
     --bg_blu: #161C3B;
 }
@@ -20,6 +21,10 @@ body {
 
 h2 {
     font-size: 2.7rem;
+}
+
+h3 {
+    font-size: 2.3rem;
 }
 
 p {
@@ -234,7 +239,7 @@ nav i {
 
 .ps_presentation p {
     font-size: 1.3rem;
-    color: rgb(113, 113, 113);
+    color: var(--text_gray);
 }
 
 .ps_presentation .buy_btn {
@@ -303,3 +308,42 @@ nav i {
 .itTakesTwo .row img {
     width: 13rem;
 }
+
+/* New releases */
+
+.new_releases {
+    color: white;
+}
+
+.new_game .card {
+    border: 0;
+    margin-bottom: 2.5rem;
+}
+
+.new_game a {
+    color: white;
+    text-decoration: none;
+}
+
+.new_game a img {
+    object-fit: cover;
+    border-radius: 7%;
+
+}
+
+.new_game a img:hover {
+    transform: scale(1.03);
+    transition: .5s;
+}
+
+/* MQ New Releases */
+
+/* MD */
+@media all and (min-width: 576px) {
+
+}
+
+@media all and (min-width: 992px) {
+
+}
+
