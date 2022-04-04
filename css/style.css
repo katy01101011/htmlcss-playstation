@@ -7,6 +7,7 @@
     --text_gray: #717171;
     --bg_gray: #BEBCBB;
     --bg_blu: #161C3B;
+    --bg_footer: #00439C;
 }
 
 /* COMMON */
@@ -29,6 +30,14 @@ h3 {
 
 p {
     font-size: 1.1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    line-height: 2rem;
 }
 
 .text_blu {
@@ -443,7 +452,7 @@ nav i {
 }
 
 .ps_now a .buy_btn {
-    color: bl;
+    color: black;
     background-color: rgb(223, 223, 223);
 }
 
@@ -475,4 +484,29 @@ nav i {
     transform: scale(1.02);
     transition: .2s;
     box-shadow: 0 .6rem 1.2rem rgba(0,0,0,.3)!important;
+}
+
+/* FOOTER */
+
+footer {
+    color: white;
+    background-color: var(--bg_footer);
+}
+
+footer img {
+    width: 7rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    color: inherit;
+}
+
+.box {
+    border: 1px solid red;
+    width: 100%;
 }
