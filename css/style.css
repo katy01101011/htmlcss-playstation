@@ -378,6 +378,8 @@ nav i {
 
 }
 
+/* PS4 Cards */
+
 .ps4 .card-body {
     height: 100%;
     position: relative;
@@ -388,4 +390,32 @@ nav i {
     position: absolute;
     left: 1rem;
     bottom: 0;
+}
+
+/* PlayStation Plus */
+
+.ps_plus {
+    background-color: var(--bg_gray);
+}
+
+.ps_plus_logo {
+    width: 19rem;
+}
+
+.ps_plus a .buy_btn {
+    color: var(--blu);
+    background-color: rgb(223, 223, 223);
+}
+
+.ps_plus a .buy_btn:hover {
+    outline: 2px solid rgb(223, 223, 223);
+    outline-offset: 3px;}
+
+@media all and (min-width: 786px) {
+    .ps_plus>.container {
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
 }
