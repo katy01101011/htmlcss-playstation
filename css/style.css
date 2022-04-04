@@ -420,6 +420,17 @@ nav i {
     }
 }
 
+/* Sales */
+
+.sales p {
+    color: var(--text_gray);
+    font-size: 1.3rem;
+}
+
+.sales img {
+    width: 100%;
+}
+
 /* PlayStation Now */
 
 .ps_now {
@@ -432,7 +443,7 @@ nav i {
 }
 
 .ps_now a .buy_btn {
-    color: black;
+    color: bl;
     background-color: rgb(223, 223, 223);
 }
 
@@ -448,3 +459,4 @@ nav i {
         background-position: right;
     }
 }
+
