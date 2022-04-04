@@ -233,7 +233,62 @@ nav i {
 /* PS Presentation */
 
 .ps_presentation p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    color: rgb(113, 113, 113);
+}
+
+.ps_presentation .buy_btn {
+    color: white;
+    background-color: var(--blu);
+    margin: 0;
+}
+
+.ps_presentation .buy_btn:hover {
+    outline: 2px solid var(--blu);
+    outline-offset: 3px;
+}
+
+.ps_presentation img {
+    width: 100%;
+}
+
+.ps_presentation a {
+    text-decoration: none;
+}
+
+/* PS Presentation Cards */
+
+
+.ms_card.ms_active {
+    border-bottom: 2px solid var(--blu);
+    opacity: 1;
+}
+
+.ms_card {
+    text-align: center;
+    border: 2px solid transparent;
+    opacity: .5;
+}
+
+.ms_card>img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ms_card:hover {
+    opacity: 1;
+    transition: .7s;
+}
+
+.ms_card p {
+    height: 3.5rem;
+    font-size: 1rem;
+}
+
+@media all and (min-width: 786px) {
+    .col_md_5 {
+        flex-basis: calc((100% / 5) * 1);
+    }
 }
 
 /* It Takes Two */
