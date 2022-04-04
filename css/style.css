@@ -490,18 +490,48 @@ nav i {
 
 footer {
     color: white;
+    font-size: .9rem;
     background-color: var(--bg_footer);
 }
 
-footer img {
+.footer_top>img {
     width: 7rem;
+}
+
+.footer_top i {
+    font-size: 1.4rem;
+    margin-right: .7rem;
 }
 
 footer a {
     text-decoration: none;
     color: inherit;
+    font-size: .9rem;
 }
 
 footer a:hover {
     color: inherit;
+}
+
+.footer_bottom p {
+    font-size: .9rem;
+}
+
+.footer_bottom>img {
+    width: 9rem;
+}
+
+.footer_bottom a {
+    text-decoration: underline;
+}
+
+ul {
+    padding-bottom: 1rem
+}
+
+ul>li {
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left: -3.4rem;
+    margin-right: 3.5rem;
 }
