@@ -118,7 +118,16 @@ nav {
 }
 
 .drop_left>* {
-    margin-right: 1.5rem;
+    font-size: .9rem;
+    margin-right: -.4rem;
+    margin: 0;
+}
+
+@media all and (min-width: 1400px) {
+    .drop_left>* {
+        font-size: 1.05rem;
+        margin-right: 1.2rem;
+    }
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -145,6 +154,10 @@ nav i {
 .lens {
     width: 1.5rem;
 }
+
+/* DROPDOWN */
+
+.nav-link>.dropdown-menu 
 
 /* MAIN */
 
@@ -525,11 +538,11 @@ footer a:hover {
     text-decoration: underline;
 }
 
-ul {
+footer ul {
     padding-bottom: 1rem
 }
 
-ul>li {
+footer ul>li {
     line-height: 1.2rem;
     margin-bottom: 1rem;
     margin-left: -3.4rem;
