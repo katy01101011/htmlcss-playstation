@@ -451,6 +451,12 @@ nav i {
 
 .sales img {
     width: 100%;
+    border-radius: 4%;
+}
+
+.sales img:hover {
+    transform: scale(1.03);
+    transition: .7s;
 }
 
 /* PlayStation Now */
